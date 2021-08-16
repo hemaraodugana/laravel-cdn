@@ -9,7 +9,7 @@
         "symfony/finder": "2.*|3.*|4.*|5.*",
         "symfony/console": "2.*|3.*|4.*|5.*",
         "aws/aws-sdk-php": "^3.17",
-        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/guzzle": "~5.3|~6.0.1|~6.1",
         "ext-json": "*"
     },
     "require-dev": {
