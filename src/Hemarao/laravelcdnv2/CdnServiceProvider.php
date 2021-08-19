@@ -3,21 +3,21 @@
 namespace Hemarao\laravelcdn\laravelcdnv2;
 
 use Illuminate\Support\ServiceProvider;
-use Hemarao\laravelcdnv2\Contracts\CdnInterface;
-use Hemarao\laravelcdnv2\Providers\Contracts\ProviderInterface;
-use Hemarao\laravelcdnv2\Providers\AwsS3Provider;
-use Hemarao\laravelcdnv2\Contracts\AssetInterface;
-use Hemarao\laravelcdnv2\Contracts\FinderInterface;
-use Hemarao\laravelcdnv2\Contracts\ProviderFactoryInterface;
-use Hemarao\laravelcdnv2\Contracts\CdnFacadeInterface;
-use Hemarao\laravelcdnv2\Contracts\CdnHelperInterface;
-use Hemarao\laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
-use Hemarao\laravelcdnv2\Validators\ProviderValidator;
-use Hemarao\laravelcdnv2\Validators\Contracts\CdnFacadeValidatorInterface;
-use Hemarao\laravelcdnv2\Validators\CdnFacadeValidator;
-use Hemarao\laravelcdnv2\Validators\Contracts\ValidatorInterface;
-use Hemarao\laravelcdnv2\Validators\Validator;
-use Hemarao\laravelcdnv2\Commands\PushCommand;
+use Hemarao\laravelcdn\laravelcdnv2\Contracts\CdnInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Providers\Contracts\ProviderInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Providers\AwsS3Provider;
+use Hemarao\laravelcdn\laravelcdnv2\Contracts\AssetInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Contracts\FinderInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Contracts\ProviderFactoryInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Contracts\CdnFacadeInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Contracts\CdnHelperInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Validators\ProviderValidator;
+use Hemarao\laravelcdn\laravelcdnv2\Validators\Contracts\CdnFacadeValidatorInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Validators\CdnFacadeValidator;
+use Hemarao\laravelcdn\laravelcdnv2\Validators\Contracts\ValidatorInterface;
+use Hemarao\laravelcdn\laravelcdnv2\Validators\Validator;
+use Hemarao\laravelcdn\laravelcdnv2\Commands\PushCommand;
 
 /**
  * Class CdnServiceProvider.
