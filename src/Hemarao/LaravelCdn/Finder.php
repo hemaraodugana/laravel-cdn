@@ -1,10 +1,10 @@
 <?php
 
-namespace src\Hemarao\LaravelCdn;
+namespace Hemarao\LaravelCdn;
 
 use Illuminate\Support\Collection;
-use src\Hemarao\LaravelCdn\Contracts\AssetInterface;
-use src\Hemarao\LaravelCdn\Contracts\FinderInterface;
+use Hemarao\LaravelCdn\Contracts\AssetInterface;
+use Hemarao\LaravelCdn\Contracts\FinderInterface;
 use Symfony\Component\Console\Output\ConsoleOutput;
 use Symfony\Component\Finder\Finder as SymfonyFinder;
 
