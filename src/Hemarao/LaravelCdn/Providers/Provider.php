@@ -9,7 +9,7 @@ use Hemarao\LaravelCdn\Providers\Contracts\ProviderInterface;
  *
  * @category Drivers Abstract Class
  *
- * @author   Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author   Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 abstract class Provider implements ProviderInterface
 {

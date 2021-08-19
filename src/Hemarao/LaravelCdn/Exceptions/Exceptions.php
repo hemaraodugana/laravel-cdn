@@ -3,7 +3,7 @@
 namespace Hemarao\LaravelCdn\Exceptions;
 
 /**
- * @author Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class CdnException extends \RuntimeException
 {

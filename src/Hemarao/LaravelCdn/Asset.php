@@ -12,7 +12,7 @@ use Hemarao\LaravelCdn\Contracts\AssetInterface;
  *
  * @category DTO
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class Asset implements AssetInterface
 {

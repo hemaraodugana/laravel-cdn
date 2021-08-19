@@ -13,7 +13,7 @@ use Symfony\Component\Finder\Finder as SymfonyFinder;
  *
  * @category Finder Helper
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class Finder extends SymfonyFinder implements FinderInterface
 {

@@ -14,7 +14,7 @@ use Hemarao\LaravelCdn\Finder;
  *
  * @category Test
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class FinderTest extends TestCase
 {

@@ -10,7 +10,7 @@ use Hemarao\LaravelCdn\Validators\Contracts\ValidatorInterface;
  *
  * @category Main Validator
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class Validator implements ValidatorInterface
 {

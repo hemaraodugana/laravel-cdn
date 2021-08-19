@@ -14,7 +14,7 @@ use Hemarao\LaravelCdn\Contracts\ProviderFactoryInterface;
  *
  * @category Main Class
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class Cdn implements CdnInterface
 {

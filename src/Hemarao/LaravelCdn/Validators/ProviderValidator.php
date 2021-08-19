@@ -10,7 +10,7 @@ use Hemarao\LaravelCdn\Validators\Contracts\ProviderValidatorInterface;
  *
  * @category
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class ProviderValidator extends Validator implements ProviderValidatorInterface
 {

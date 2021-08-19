@@ -14,7 +14,7 @@ use Hemarao\LaravelCdn\Contracts\CdnHelperInterface;
  *
  * @category Test
  *
- * @author   Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author   Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class CdnFacadeTest extends TestCase
 {

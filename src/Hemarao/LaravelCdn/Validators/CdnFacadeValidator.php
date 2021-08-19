@@ -9,7 +9,7 @@ use Hemarao\LaravelCdn\Validators\Contracts\CdnFacadeValidatorInterface;
  *
  * @category Validator
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class CdnFacadeValidator extends Validator implements CdnFacadeValidatorInterface
 {

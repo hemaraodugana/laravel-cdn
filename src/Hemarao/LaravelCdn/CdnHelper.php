@@ -13,7 +13,7 @@ use Hemarao\LaravelCdn\Exceptions\MissingConfigurationFileException;
  *
  * @category General Helper
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class CdnHelper implements CdnHelperInterface
 {

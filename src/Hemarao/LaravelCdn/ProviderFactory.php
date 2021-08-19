@@ -14,7 +14,7 @@ use Hemarao\LaravelCdn\Exceptions\UnsupportedProviderException;
  *
  * @category Factory
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class ProviderFactory implements ProviderFactoryInterface
 {

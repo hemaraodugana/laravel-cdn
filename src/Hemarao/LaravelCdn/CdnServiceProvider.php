@@ -24,7 +24,7 @@ use Hemarao\LaravelCdn\Commands\PushCommand;
  *
  * @category Service Provider
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class CdnServiceProvider extends ServiceProvider
 {

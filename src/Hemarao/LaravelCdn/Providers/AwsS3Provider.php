@@ -35,7 +35,7 @@ use Symfony\Component\Console\Output\ConsoleOutput;
  * @property string  $cloudfront_url
  * @property string $http
  *
- * @author   Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author   Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class AwsS3Provider extends Provider
 {

@@ -5,7 +5,7 @@ namespace Hemarao\LaravelCdn\Contracts;
 /**
  * Interface AssetInterface.
  *
- * @author   Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author   Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 interface AssetInterface
 {

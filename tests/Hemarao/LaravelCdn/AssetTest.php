@@ -10,7 +10,7 @@ use Hemarao\LaravelCdn\Asset;
  *
  * @category Test
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class AssetTest extends TestCase
 {

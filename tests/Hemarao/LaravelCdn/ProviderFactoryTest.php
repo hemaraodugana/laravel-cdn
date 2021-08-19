@@ -13,7 +13,7 @@ use Hemarao\LaravelCdn\Providers\AwsS3Provider;
  *
  * @category Test
  *
- * @author  Kiran Ajudiya <ajudiyabalam@gmail.com>
+ * @author  Hemarao Dugana <hemsbapu9644@gmail.com>
  */
 class ProviderFactoryTest extends TestCase
 {
