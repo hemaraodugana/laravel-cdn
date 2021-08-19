@@ -29,15 +29,15 @@
         }
     ],
 
-    "extra": {
-        "laravel": {
-          "providers": [
-            "Hemarao\\Laravelcdn\\CdnServiceProvider"
-          ],
-          "aliases": {
-            "CDN": "Hemarao\\Laravelcdn\\Facades\\CdnFacadeAccessor"
-          }
-        }
-      },
+    // "extra": {
+    //     "laravel": {
+    //       "providers": [
+    //         "Hemarao\\Laravelcdn\\CdnServiceProvider"
+    //       ],
+    //       "aliases": {
+    //         "CDN": "Hemarao\\Laravelcdn\\Facades\\CdnFacadeAccessor"
+    //       }
+    //     }
+    //   },
     "minimum-stability": "stable"
 }
