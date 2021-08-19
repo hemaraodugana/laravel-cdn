@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
           "providers": [
-            "Hemarao\\laravelcdn\\CdnServiceProvider"
+            "Hemarao\\Laravelcdn\\CdnServiceProvider"
           ],
           "aliases": {
-            "CDN": "Hemarao\\laravelcdn\\Facades\\CdnFacadeAccessor"
+            "CDN": "Hemarao\\Laravelcdn\\Facades\\CdnFacadeAccessor"
           }
         }
       },
