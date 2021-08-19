@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelcdn\Facades;
+namespace Hemarao\Laravelcdn\laravelcdnv2\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

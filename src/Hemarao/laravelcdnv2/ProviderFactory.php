@@ -1,11 +1,11 @@
 <?php
 
-namespace Hemarao\laravelcdn;
+namespace Hemarao\Laravelcdn\laravelcdnv2;
 
 use Illuminate\Support\Facades\App;
-use Hemarao\laravelcdn\Contracts\ProviderFactoryInterface;
-use Hemarao\laravelcdn\Exceptions\MissingConfigurationException;
-use Hemarao\laravelcdn\Exceptions\UnsupportedProviderException;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\ProviderFactoryInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Exceptions\MissingConfigurationException;
+use Hemarao\Laravelcdn\laravelcdnv2\Exceptions\UnsupportedProviderException;
 
 /**
  * Class ProviderFactory

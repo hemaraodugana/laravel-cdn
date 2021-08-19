@@ -1,12 +1,12 @@
 <?php
 
-namespace Hemarao\laravelcdn;
+namespace Hemarao\Laravelcdn\laravelcdnv2;
 
-use Hemarao\laravelcdn\Contracts\AssetInterface;
-use Hemarao\laravelcdn\Contracts\CdnHelperInterface;
-use Hemarao\laravelcdn\Contracts\CdnInterface;
-use Hemarao\laravelcdn\Contracts\FinderInterface;
-use Hemarao\laravelcdn\Contracts\ProviderFactoryInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\AssetInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnHelperInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\FinderInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\ProviderFactoryInterface;
 
 /**
  * Class Cdn
@@ -49,7 +49,7 @@ class Cdn implements CdnInterface
      * @param ProviderFactoryInterface $provider_factory
      * @param CdnHelperInterface       $helper
      *
-     * @internal param \Hemarao\laravelcdn\Repository $configurations
+     * @internal param \Hemarao\Laravelcdn\laravelcdnv2\Repository $configurations
      */
     public function __construct(
         FinderInterface $finder,
@@ -64,7 +64,7 @@ class Cdn implements CdnInterface
     }
 
     /**
-     * Will be called from the Hemarao\laravelcdn\PushCommand class on Fire().
+     * Will be called from the Hemarao\Laravelcdn\laravelcdnv2\PushCommand class on Fire().
      */
     public function push()
     {

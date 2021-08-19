@@ -1,9 +1,9 @@
 <?php
 
-namespace Hemarao\laravelcdn\Test;
+namespace Hemarao\Laravelcdn\laravelcdnv2\Test;
 
 use Mockery as M;
-use Hemarao\laravelcdn\Asset;
+use Hemarao\Laravelcdn\laravelcdnv2\Asset;
 
 /**
  * Class AssetTest.
@@ -37,7 +37,7 @@ class AssetTest extends TestCase
             ],
         ]);
 
-        // check the returned object is of type Hemarao\laravelcdn\Asset
+        // check the returned object is of type Hemarao\Laravelcdn\laravelcdnv2\Asset
         assertEquals($result, $this->asset);
     }
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Hemarao\laravelcdn\Validators;
+namespace Hemarao\Laravelcdn\laravelcdnv2\Validators;
 
-use Hemarao\laravelcdn\Exceptions\MissingConfigurationException;
-use Hemarao\laravelcdn\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Exceptions\MissingConfigurationException;
+use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
 
 /**
  * Class ProviderValidator.

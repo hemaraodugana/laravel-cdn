@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelcdn\Providers;
+namespace Hemarao\Laravelcdn\laravelcdnv2\Providers;
 
 use Aws\S3\BatchDelete;
 use Aws\S3\Exception\DeleteMultipleObjectsException;
@@ -12,8 +12,8 @@ use Illuminate\Foundation\Mix;
 use Illuminate\Support\Collection;
 use phpDocumentor\Reflection\Types\Array_;
 use PHPUnit\Framework\Constraint\IsInstanceOf;
-use Hemarao\laravelcdn\Contracts\CdnHelperInterface;
-use Hemarao\laravelcdn\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnHelperInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
 use Symfony\Component\Console\Output\ConsoleOutput;
 
 /**
@@ -304,7 +304,7 @@ class AwsS3Provider extends Provider
         // state or apply any php function on it." because the returned is
         // a copy of the original variable. this prevent this error:
         // Indirect modification of overloaded property
-        // Hemarao\laravelcdn\Providers\AwsS3Provider::$buckets has no effect
+        // Hemarao\Laravelcdn\laravelcdnv2\Providers\AwsS3Provider::$buckets has no effect
         $bucket = $this->buckets;
 
         return rtrim(key($bucket), '/');

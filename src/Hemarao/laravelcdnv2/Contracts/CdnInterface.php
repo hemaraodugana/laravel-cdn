@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelcdn\Contracts;
+namespace Hemarao\Laravelcdn\laravelcdnv2\Contracts;
 
 /**
  * Interface CdnInterface.

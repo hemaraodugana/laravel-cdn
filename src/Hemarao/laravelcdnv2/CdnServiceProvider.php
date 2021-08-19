@@ -1,23 +1,23 @@
 <?php
 
-namespace Hemarao\laravelcdn;
+namespace Hemarao\Laravelcdn\laravelcdnv2;
 
 use Illuminate\Support\ServiceProvider;
-use Hemarao\laravelcdn\Contracts\CdnInterface;
-use Hemarao\laravelcdn\Providers\Contracts\ProviderInterface;
-use Hemarao\laravelcdn\Providers\AwsS3Provider;
-use Hemarao\laravelcdn\Contracts\AssetInterface;
-use Hemarao\laravelcdn\Contracts\FinderInterface;
-use Hemarao\laravelcdn\Contracts\ProviderFactoryInterface;
-use Hemarao\laravelcdn\Contracts\CdnFacadeInterface;
-use Hemarao\laravelcdn\Contracts\CdnHelperInterface;
-use Hemarao\laravelcdn\Validators\Contracts\ProviderValidatorInterface;
-use Hemarao\laravelcdn\Validators\ProviderValidator;
-use Hemarao\laravelcdn\Validators\Contracts\CdnFacadeValidatorInterface;
-use Hemarao\laravelcdn\Validators\CdnFacadeValidator;
-use Hemarao\laravelcdn\Validators\Contracts\ValidatorInterface;
-use Hemarao\laravelcdn\Validators\Validator;
-use Hemarao\laravelcdn\Commands\PushCommand;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Providers\Contracts\ProviderInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Providers\AwsS3Provider;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\AssetInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\FinderInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\ProviderFactoryInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnFacadeInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnHelperInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Validators\ProviderValidator;
+use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\CdnFacadeValidatorInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Validators\CdnFacadeValidator;
+use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\ValidatorInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\Validators\Validator;
+use Hemarao\Laravelcdn\laravelcdnv2\Commands\PushCommand;
 
 /**
  * Class CdnServiceProvider.

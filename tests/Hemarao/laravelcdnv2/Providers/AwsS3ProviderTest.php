@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelcdn\Test;
+namespace Hemarao\Laravelcdn\laravelcdnv2\Test;
 
 use Illuminate\Support\Collection;
 use Mockery as M;
@@ -8,10 +8,10 @@ use Symfony\Component\Console\Output\ConsoleOutput;
 use Aws\S3\S3Client;
 use Aws\Command;
 use Aws\Result;
-use Hemarao\laravelcdn\Validators\Contracts\ProviderValidatorInterface;
-use Hemarao\laravelcdn\CdnHelper;
+use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\Laravelcdn\laravelcdnv2\CdnHelper;
 use Symfony\Component\Finder\SplFileInfo;
-use Hemarao\laravelcdn\Providers\AwsS3Provider;
+use Hemarao\Laravelcdn\laravelcdnv2\Providers\AwsS3Provider;
 
 /**
  * Class AwsS3ProviderTest.
@@ -46,7 +46,7 @@ class AwsS3ProviderTest extends TestCase
         $this->m_spl_file->shouldReceive('getPathname')->andReturn('Hemarao/laravelCDNv2/tests/Hemarao/laravelCDNv2/AwsS3ProviderTest.php');
         $this->m_spl_file->shouldReceive('getRealPath')->andReturn(__DIR__.'/AwsS3ProviderTest.php');
 
-        $this->p_awsS3Provider = M::mock('\Hemarao\laravelcdn\Providers\AwsS3Provider[connect]', array(
+        $this->p_awsS3Provider = M::mock('\Hemarao\Laravelcdn\laravelcdnv2\Providers\AwsS3Provider[connect]', array(
             $this->m_console,
             $this->m_validator,
             $this->m_helper,
