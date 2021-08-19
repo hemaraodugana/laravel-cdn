@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Hemarao\LaravelCdn\Validators\Contracts;
+namespace src\Hemarao\LaravelCdn\Validators\Contracts;
 
 /**
  * Interface ValidatorInterface.

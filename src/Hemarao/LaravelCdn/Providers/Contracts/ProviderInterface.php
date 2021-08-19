@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\LaravelCdn\Providers\Contracts;
+namespace src\Hemarao\LaravelCdn\Providers\Contracts;
 
 /**
  * Interface ProviderInterface.

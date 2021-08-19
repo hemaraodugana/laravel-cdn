@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\LaravelCdn\Contracts;
+namespace src\Hemarao\LaravelCdn\Contracts;
 
 /**
  * Interface FinderInterface.
