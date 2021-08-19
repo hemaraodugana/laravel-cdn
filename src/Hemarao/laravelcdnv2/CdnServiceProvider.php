@@ -1,23 +1,23 @@
 <?php
 
-namespace Hemarao\Laravelcdn\laravelcdnv2;
+namespace Hemarao\laravelCDNv2;
 
 use Illuminate\Support\ServiceProvider;
-use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Providers\Contracts\ProviderInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Providers\AwsS3Provider;
-use Hemarao\Laravelcdn\laravelcdnv2\Contracts\AssetInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Contracts\FinderInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Contracts\ProviderFactoryInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnFacadeInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnHelperInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Validators\ProviderValidator;
-use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\CdnFacadeValidatorInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Validators\CdnFacadeValidator;
-use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\ValidatorInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Validators\Validator;
-use Hemarao\Laravelcdn\laravelcdnv2\Commands\PushCommand;
+use Hemarao\laravelCDNv2\Contracts\CdnInterface;
+use Hemarao\laravelCDNv2\Providers\Contracts\ProviderInterface;
+use Hemarao\laravelCDNv2\Providers\AwsS3Provider;
+use Hemarao\laravelCDNv2\Contracts\AssetInterface;
+use Hemarao\laravelCDNv2\Contracts\FinderInterface;
+use Hemarao\laravelCDNv2\Contracts\ProviderFactoryInterface;
+use Hemarao\laravelCDNv2\Contracts\CdnFacadeInterface;
+use Hemarao\laravelCDNv2\Contracts\CdnHelperInterface;
+use Hemarao\laravelCDNv2\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\laravelCDNv2\Validators\ProviderValidator;
+use Hemarao\laravelCDNv2\Validators\Contracts\CdnFacadeValidatorInterface;
+use Hemarao\laravelCDNv2\Validators\CdnFacadeValidator;
+use Hemarao\laravelCDNv2\Validators\Contracts\ValidatorInterface;
+use Hemarao\laravelCDNv2\Validators\Validator;
+use Hemarao\laravelCDNv2\Commands\PushCommand;
 
 /**
  * Class CdnServiceProvider.

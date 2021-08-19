@@ -1,8 +1,8 @@
 <?php
 
-namespace Hemarao\Laravelcdn\laravelcdnv2\Validators;
+namespace Hemarao\laravelCDNv2\Validators;
 
-use Hemarao\Laravelcdn\laravelcdnv2\Validators\Contracts\ValidatorInterface;
+use Hemarao\laravelCDNv2\Validators\Contracts\ValidatorInterface;
 
 /**
  * Class Validator

@@ -1,10 +1,10 @@
 <?php
 
-namespace Hemarao\Laravelcdn\laravelcdnv2\Commands;
+namespace Hemarao\laravelCDNv2\Commands;
 
 use Illuminate\Console\Command;
-use Hemarao\Laravelcdn\laravelcdnv2\Cdn;
-use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnInterface;
+use Hemarao\laravelCDNv2\Cdn;
+use Hemarao\laravelCDNv2\Contracts\CdnInterface;
 
 /**
  * Class PushCommand.

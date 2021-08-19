@@ -1,13 +1,13 @@
 <?php
 
-namespace Hemarao\Laravelcdn\laravelcdnv2\Test;
+namespace Hemarao\laravelCDNv2\Test;
 
 use Mockery as M;
-use Hemarao\Laravelcdn\laravelcdnv2\CdnFacade;
-use Hemarao\Laravelcdn\laravelcdnv2\Providers\AwsS3Provider;
-use Hemarao\Laravelcdn\laravelcdnv2\Contracts\ProviderFactoryInterface;
-use Hemarao\Laravelcdn\laravelcdnv2\Validators\CdnFacadeValidator;
-use Hemarao\Laravelcdn\laravelcdnv2\Contracts\CdnHelperInterface;
+use Hemarao\laravelCDNv2\CdnFacade;
+use Hemarao\laravelCDNv2\Providers\AwsS3Provider;
+use Hemarao\laravelCDNv2\Contracts\ProviderFactoryInterface;
+use Hemarao\laravelCDNv2\Validators\CdnFacadeValidator;
+use Hemarao\laravelCDNv2\Contracts\CdnHelperInterface;
 
 /**
  * Class CdnFacadeTest.
@@ -107,7 +107,7 @@ class CdnFacadeTest extends TestCase
     }
 
     /**
-     * @expectedException \Hemarao\Laravelcdn\laravelcdnv2\Exceptions\EmptyPathException
+     * @expectedException \Hemarao\laravelCDNv2\Exceptions\EmptyPathException
      */
     public function testUrlGeneratorThrowsException()
     {

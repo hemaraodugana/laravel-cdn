@@ -1,13 +1,13 @@
 <?php
 
-namespace Hemarao\Laravelcdn\laravelcdnv2\Test;
+namespace Hemarao\laravelCDNv2\Test;
 
 use Illuminate\Support\Collection;
 use Mockery as M;
 use Symfony\Component\Console\Output\ConsoleOutput;
 use Symfony\Component\Finder\SplFileInfo;
-use Hemarao\Laravelcdn\laravelcdnv2\Asset;
-use Hemarao\Laravelcdn\laravelcdnv2\Finder;
+use Hemarao\laravelCDNv2\Asset;
+use Hemarao\laravelCDNv2\Finder;
 
 /**
  * Class FinderTest.
