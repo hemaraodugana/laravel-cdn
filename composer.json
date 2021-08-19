@@ -1,7 +1,19 @@
 {
-    "name": "hemarao/laravelcdn",
-    "description": "Content Delivery Network (CDN) Package for Laravel for Composer Version 2",
+    "name": "hemarao/laravel-cdn",
+    "description": "Content Delivery Network (CDN) Package for Laravel for composer version 2",
     "type": "library",
+    "keywords": [
+        "laravel",
+        "CDN",
+        "upload",
+        "AWS",
+        "S3",
+        "AWS S3",
+        "amazon",
+        "Assets Upload",
+        "Content Delivery Network",
+        "AWS CloudFront"
+      ],    
     "require": {
         "php": "^7.2.5",
         "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|6.*|7.*|8.*",
@@ -18,15 +30,29 @@
     },
     "license": "MIT",
     "autoload": {
+        "classmap": [
+            "tests/TestCase.php",
+            "src/Hemarao/LaravelCdn/Exceptions"
+        ],        
         "psr-4": {
-            "Hemarao\\Laravelcdn\\": "src/"
+            "Hemarao\\LaravelCdn\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "hemaraodugana",
+            "name": "Hemarao Dugana",
             "email": "hemsbapu9644@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Hemarao\\LaravelCdn\\CdnServiceProvider"
+          ],
+          "aliases": {
+            "CDN": "Hemarao\\LaravelCdn\\Facades\\CdnFacadeAccessor"
+          }
+        }
+      },    
     "minimum-stability": "stable"
 }
