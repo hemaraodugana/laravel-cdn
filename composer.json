@@ -31,14 +31,6 @@
             "name": "hemaraodugana",
             "email": "hemsbapu9644@gmail.com"
         }
-    ],
-    "extra": {
-        "laravel": {
-
-          "aliases": {
-            "CDN": "Hemarao\\laravelcdnv2\\Facades\\CdnFacadeAccessor"
-          }
-        }
-      },    
+    ],    
     "minimum-stability": "stable"
 }
