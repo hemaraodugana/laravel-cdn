@@ -1,9 +1,9 @@
 <?php
 
-namespace Hemarao\laravelCDNv2;
+namespace Hemarao\laravelcdn;
 
 use Illuminate\Support\Collection;
-use Hemarao\laravelCDNv2\Contracts\AssetInterface;
+use Hemarao\laravelcdn\Contracts\AssetInterface;
 
 /**
  * Class Asset

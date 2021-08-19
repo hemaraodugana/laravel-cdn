@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Hemarao\laravelCDNv2\Test;
+namespace Hemarao\laravelcdn\Test;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 //use PHPUnit\Framework\TestCase as PHPUnit_Framework_TestCase;

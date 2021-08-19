@@ -1,8 +1,8 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Validators;
+namespace Hemarao\laravelcdn\Validators;
 
-use Hemarao\laravelCDNv2\Validators\Contracts\CdnFacadeValidatorInterface;
+use Hemarao\laravelcdn\Validators\Contracts\CdnFacadeValidatorInterface;
 
 /**
  * Class CdnFacadeValidator.

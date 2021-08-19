@@ -1,8 +1,8 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Providers;
+namespace Hemarao\laravelcdn\Providers;
 
-use Hemarao\laravelCDNv2\Providers\Contracts\ProviderInterface;
+use Hemarao\laravelcdn\Providers\Contracts\ProviderInterface;
 
 /**
  * Class Provider.

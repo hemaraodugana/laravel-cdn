@@ -1,25 +1,25 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Test;
+namespace Hemarao\laravelcdn\Test;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Mockery as M;
 use Symfony\Component\Finder\SplFileInfo;
-use Hemarao\laravelCDNv2\Asset;
-use Hemarao\laravelCDNv2\Cdn;
-use Hemarao\laravelCDNv2\CdnHelper;
-use Hemarao\laravelCDNv2\Contracts\AssetInterface;
-use Hemarao\laravelCDNv2\Contracts\FinderInterface;
-use Hemarao\laravelCDNv2\Finder;
-use Hemarao\laravelCDNv2\ProviderFactory;
-use Hemarao\laravelCDNv2\Providers\Provider;
-use Hemarao\laravelCDNv2\Contracts\CdnHelperInterface;
+use Hemarao\laravelcdn\Asset;
+use Hemarao\laravelcdn\Cdn;
+use Hemarao\laravelcdn\CdnHelper;
+use Hemarao\laravelcdn\Contracts\AssetInterface;
+use Hemarao\laravelcdn\Contracts\FinderInterface;
+use Hemarao\laravelcdn\Finder;
+use Hemarao\laravelcdn\ProviderFactory;
+use Hemarao\laravelcdn\Providers\Provider;
+use Hemarao\laravelcdn\Contracts\CdnHelperInterface;
 use Symfony\Component\Console\Output\ConsoleOutput;
-use Hemarao\laravelCDNv2\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\laravelcdn\Validators\Contracts\ProviderValidatorInterface;
 use Aws\S3\S3Client;
 use Aws\Command;
-use Hemarao\laravelCDNv2\Contracts\ProviderFactoryInterface;
+use Hemarao\laravelcdn\Contracts\ProviderFactoryInterface;
 use Illuminate\Config\Repository;
 //use Orchestra\Testbench\TestCase as OrchestraTestCase;
 /**
@@ -171,7 +171,7 @@ class CdnTest extends TestCase
             ->andReturn(__DIR__.'/AwsS3ProviderTest.php');
 
         // partial mock
-        $p_aws_s3_provider = M::mock('\Hemarao\laravelCDNv2\Providers\AwsS3Provider[connect]',
+        $p_aws_s3_provider = M::mock('\Hemarao\laravelcdn\Providers\AwsS3Provider[connect]',
         [
             $m_console,
             $m_validator,

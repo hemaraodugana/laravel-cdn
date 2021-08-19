@@ -42,7 +42,7 @@ Laravel 5.4 and below: Add the service provider and facade to `config/app.php`:
 ```php
 'providers' => array(
      //...
-     Hemarao\laravelCDNv2\CdnServiceProvider::class,
+     Hemarao\laravelcdn\CdnServiceProvider::class,
 ),
 
 ```
@@ -50,7 +50,7 @@ Laravel 5.4 and below: Add the service provider and facade to `config/app.php`:
 ```php
 'aliases' => array(
      //...
-     'CDN' => Hemarao\laravelCDNv2\Facades\CdnFacadeAccessor::class
+     'CDN' => Hemarao\laravelcdn\Facades\CdnFacadeAccessor::class
 ),
 ```
 
@@ -59,7 +59,7 @@ Laravel 5.4 and below: Add the service provider and facade to `config/app.php`:
 Publish the package config file:
 
 ```bash
-php artisan vendor:publish --provider 'Hemarao\laravelCDNv2\CdnServiceProvider'
+php artisan vendor:publish --provider 'Hemarao\laravelcdn\CdnServiceProvider'
 ```
 
 ## Environment Configuration

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Validators\Contracts;
+namespace Hemarao\laravelcdn\Validators\Contracts;
 
 /**
  * Interface ProviderValidatorInterface.

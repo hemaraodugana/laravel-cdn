@@ -1,23 +1,23 @@
 <?php
 
-namespace Hemarao\laravelCDNv2;
+namespace Hemarao\laravelcdn;
 
 use Illuminate\Support\ServiceProvider;
-use Hemarao\laravelCDNv2\Contracts\CdnInterface;
-use Hemarao\laravelCDNv2\Providers\Contracts\ProviderInterface;
-use Hemarao\laravelCDNv2\Providers\AwsS3Provider;
-use Hemarao\laravelCDNv2\Contracts\AssetInterface;
-use Hemarao\laravelCDNv2\Contracts\FinderInterface;
-use Hemarao\laravelCDNv2\Contracts\ProviderFactoryInterface;
-use Hemarao\laravelCDNv2\Contracts\CdnFacadeInterface;
-use Hemarao\laravelCDNv2\Contracts\CdnHelperInterface;
-use Hemarao\laravelCDNv2\Validators\Contracts\ProviderValidatorInterface;
-use Hemarao\laravelCDNv2\Validators\ProviderValidator;
-use Hemarao\laravelCDNv2\Validators\Contracts\CdnFacadeValidatorInterface;
-use Hemarao\laravelCDNv2\Validators\CdnFacadeValidator;
-use Hemarao\laravelCDNv2\Validators\Contracts\ValidatorInterface;
-use Hemarao\laravelCDNv2\Validators\Validator;
-use Hemarao\laravelCDNv2\Commands\PushCommand;
+use Hemarao\laravelcdn\Contracts\CdnInterface;
+use Hemarao\laravelcdn\Providers\Contracts\ProviderInterface;
+use Hemarao\laravelcdn\Providers\AwsS3Provider;
+use Hemarao\laravelcdn\Contracts\AssetInterface;
+use Hemarao\laravelcdn\Contracts\FinderInterface;
+use Hemarao\laravelcdn\Contracts\ProviderFactoryInterface;
+use Hemarao\laravelcdn\Contracts\CdnFacadeInterface;
+use Hemarao\laravelcdn\Contracts\CdnHelperInterface;
+use Hemarao\laravelcdn\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\laravelcdn\Validators\ProviderValidator;
+use Hemarao\laravelcdn\Validators\Contracts\CdnFacadeValidatorInterface;
+use Hemarao\laravelcdn\Validators\CdnFacadeValidator;
+use Hemarao\laravelcdn\Validators\Contracts\ValidatorInterface;
+use Hemarao\laravelcdn\Validators\Validator;
+use Hemarao\laravelcdn\Commands\PushCommand;
 
 /**
  * Class CdnServiceProvider.

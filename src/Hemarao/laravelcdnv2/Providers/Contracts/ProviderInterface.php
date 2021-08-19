@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Providers\Contracts;
+namespace Hemarao\laravelcdn\Providers\Contracts;
 
 /**
  * Interface ProviderInterface.
