@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Contracts;
+namespace Hemarao\laravelcdnv2\Contracts;
 
 /**
  * Interface AssetInterface.

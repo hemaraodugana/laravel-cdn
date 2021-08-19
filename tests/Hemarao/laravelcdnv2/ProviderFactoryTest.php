@@ -1,12 +1,12 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Test;
+namespace Hemarao\laravelcdnv2\Test;
 
 use Illuminate\Support\Facades\App;
 use Mockery as M;
-use Hemarao\laravelCDNv2\Exceptions\MissingConfigurationException;
-use Hemarao\laravelCDNv2\ProviderFactory;
-use Hemarao\laravelCDNv2\Providers\AwsS3Provider;
+use Hemarao\laravelcdnv2\Exceptions\MissingConfigurationException;
+use Hemarao\laravelcdnv2\ProviderFactory;
+use Hemarao\laravelcdnv2\Providers\AwsS3Provider;
 
 /**
  * Class ProviderFactoryTest.
