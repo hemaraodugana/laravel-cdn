@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDN\Test;
+namespace Hemarao\LaravelCDN\Test;
 
 use Mockery as M;
 use Hemarao\laravelCDN\CdnFacade;

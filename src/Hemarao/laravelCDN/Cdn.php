@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDN;
+namespace Hemarao\LaravelCDN;
 
 use Hemarao\laravelCDN\Contracts\AssetInterface;
 use Hemarao\laravelCDN\Contracts\CdnHelperInterface;

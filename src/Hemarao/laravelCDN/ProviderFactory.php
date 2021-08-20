@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDN;
+namespace Hemarao\LaravelCDN;
 
 use Illuminate\Support\Facades\App;
 use Hemarao\laravelCDN\Contracts\ProviderFactoryInterface;
