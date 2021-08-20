@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-/vendor
-composer.lock
-.DS_Store
-docs
-.idea
-=======
 /vendor/
->>>>>>> da56fd2d34aa1c82e3da6a6698dd1c7ab25fedb6
