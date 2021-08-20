@@ -1,5 +1,5 @@
 {
-    "name": "hemarao/laravelcdn2",
+    "name": "hemarao/Laravelcdn2",
     "description": "Content Delivery Network (CDN) Package for Laravel for composer version 2",
     "license": "MIT",
         "keywords": [
@@ -37,7 +37,7 @@
     "autoload": {
         "classmap": [
             "tests/TestCase.php",
-            "src/Hemarao/laravelcdn2/Exceptions"
+            "src/Lemarao/laravelcdn2/Exceptions"
         ],        
         "psr-4": {
             "Hemarao\\Laravelcdn2\\": "src/"
@@ -46,10 +46,10 @@
       "extra": {
         "laravel": {
           "providers": [
-            "Hemarao\\laravelcdn2\\CdnServiceProvider"
+            "Hemarao\\Laravelcdn2\\CdnServiceProvider"
           ],
           "aliases": {
-            "CDN": "Hemarao\\laravelcdn2\\Facades\\CdnFacadeAccessor"
+            "CDN": "Hemarao\\Laravelcdn2\\Facades\\CdnFacadeAccessor"
           }
         }
       },    
