@@ -1,22 +1,23 @@
 {
-    "name": "hemarao/laravelcdn2",
-    "description": "Content Delivery Network (CDN) Package for Laravel for composer version 2",
+    "name": "hemarao/laravel-cdn",
+    "description": "Content Delivery Network (CDN) Package for Laravel",
+    "type": "library",
     "license": "MIT",
-        "keywords": [
-      "laravel",
-      "CDN",
-      "upload",
-      "AWS",
-      "S3",
-      "AWS S3",
-      "amazon",
-      "Assets Upload",
-      "Content Delivery Network",
-      "AWS CloudFront"
-    ],
+    "keywords": [
+        "laravel",
+        "CDN",
+        "upload",
+        "AWS",
+        "S3",
+        "AWS S3",
+        "amazon",
+        "Assets Upload",
+        "Content Delivery Network",
+        "AWS CloudFront"
+      ],
     "authors": [
         {
-            "name": "Hemarao Dugana",
+            "name": "Hemarao",
             "email": "hemsbapu9644@gmail.com"
         }
     ],
@@ -31,28 +32,27 @@
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
-        "phpunit/phpunit": "^8.5.8|^9.3.3",
+        "phpunit/phpunit" : "^8.5.8|^9.3.3",
         "orchestra/testbench": "~3.8.0|^4.0|^5.0|^6.0"
-    },
-    "autoload": {
+     },
+     "autoload": {
         "classmap": [
             "tests/TestCase.php",
-            "src/Hemarao/Laravelcdn2/Exceptions"
-        ],        
-        "psr-4": {
-            "Hemarao\\Laravelcdn2\\": "src/"
+            "src/Hemarao/laravelCDN/Exceptions"
+        ],
+      "psr-4": {
+            "Hemarao\\laravelCDN\\": "src/"
         }
     },
-      "extra": {
+    "extra": {
         "laravel": {
           "providers": [
-            "Hemarao\\Laravelcdn2\\Laravelcdn2\\CdnServiceProvider"
+            "Hemarao\\laravelCDN\\CdnServiceProvider"
           ],
           "aliases": {
-            "CDN": "Hemarao\\Laravelcdn2\\Laravelcdn2\\Facades\\CdnFacadeAccessor"
+            "CDN": "Hemarao\\laravelCDN\\Facades\\CdnFacadeAccessor"
           }
         }
-      },    
-    "type": "library",
+      },
     "minimum-stability": "stable"
 }
