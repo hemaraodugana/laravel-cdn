@@ -3,9 +3,9 @@
 namespace Hemarao\LaravelCdn;
 
 use Illuminate\Support\Facades\App;
-use KiranAjudiya\LaravelCDN\Contracts\ProviderFactoryInterface;
-use KiranAjudiya\LaravelCDN\Exceptions\MissingConfigurationException;
-use KiranAjudiya\LaravelCDN\Exceptions\UnsupportedProviderException;
+use HemaraoDugana\LaravelCdn\Contracts\ProviderFactoryInterface;
+use HemaraoDugana\LaravelCdn\Exceptions\MissingConfigurationException;
+use HemaraoDugana\LaravelCdn\Exceptions\UnsupportedProviderException;
 
 /**
  * Class ProviderFactory

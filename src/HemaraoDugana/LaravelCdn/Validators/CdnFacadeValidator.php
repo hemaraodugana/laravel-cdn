@@ -2,7 +2,7 @@
 
 namespace Hemarao\LaravelCdn\Validators;
 
-use KiranAjudiya\LaravelCDN\Validators\Contracts\CdnFacadeValidatorInterface;
+use HemaraoDugana\LaravelCdn\Validators\Contracts\CdnFacadeValidatorInterface;
 
 /**
  * Class CdnFacadeValidator.

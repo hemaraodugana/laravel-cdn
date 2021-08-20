@@ -2,8 +2,8 @@
 
 namespace Hemarao\LaravelCdn\Validators;
 
-use KiranAjudiya\LaravelCDN\Exceptions\MissingConfigurationException;
-use KiranAjudiya\LaravelCDN\Validators\Contracts\ProviderValidatorInterface;
+use HemaraoDugana\LaravelCdn\Exceptions\MissingConfigurationException;
+use HemaraoDugana\LaravelCdn\Validators\Contracts\ProviderValidatorInterface;
 
 /**
  * Class ProviderValidator.

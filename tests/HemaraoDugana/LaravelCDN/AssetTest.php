@@ -3,7 +3,7 @@
 namespace Hemarao\LaravelCdn\Test;
 
 use Mockery as M;
-use KiranAjudiya\LaravelCDN\Asset;
+use HemaraoDugana\LaravelCdn\Asset;
 
 /**
  * Class AssetTest.
@@ -37,7 +37,7 @@ class AssetTest extends TestCase
             ],
         ]);
 
-        // check the returned object is of type KiranAjudiya\LaravelCDN\Asset
+        // check the returned object is of type HemaraoDugana\LaravelCdn\Asset
         assertEquals($result, $this->asset);
     }
 

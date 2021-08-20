@@ -6,20 +6,20 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Mockery as M;
 use Symfony\Component\Finder\SplFileInfo;
-use KiranAjudiya\LaravelCDN\Asset;
-use KiranAjudiya\LaravelCDN\Cdn;
-use KiranAjudiya\LaravelCDN\CdnHelper;
-use KiranAjudiya\LaravelCDN\Contracts\AssetInterface;
-use KiranAjudiya\LaravelCDN\Contracts\FinderInterface;
-use KiranAjudiya\LaravelCDN\Finder;
-use KiranAjudiya\LaravelCDN\ProviderFactory;
-use KiranAjudiya\LaravelCDN\Providers\Provider;
-use KiranAjudiya\LaravelCDN\Contracts\CdnHelperInterface;
+use HemaraoDugana\LaravelCdn\Asset;
+use HemaraoDugana\LaravelCdn\Cdn;
+use HemaraoDugana\LaravelCdn\CdnHelper;
+use HemaraoDugana\LaravelCdn\Contracts\AssetInterface;
+use HemaraoDugana\LaravelCdn\Contracts\FinderInterface;
+use HemaraoDugana\LaravelCdn\Finder;
+use HemaraoDugana\LaravelCdn\ProviderFactory;
+use HemaraoDugana\LaravelCdn\Providers\Provider;
+use HemaraoDugana\LaravelCdn\Contracts\CdnHelperInterface;
 use Symfony\Component\Console\Output\ConsoleOutput;
-use KiranAjudiya\LaravelCDN\Validators\Contracts\ProviderValidatorInterface;
+use HemaraoDugana\LaravelCdn\Validators\Contracts\ProviderValidatorInterface;
 use Aws\S3\S3Client;
 use Aws\Command;
-use KiranAjudiya\LaravelCDN\Contracts\ProviderFactoryInterface;
+use HemaraoDugana\LaravelCdn\Contracts\ProviderFactoryInterface;
 use Illuminate\Config\Repository;
 //use Orchestra\Testbench\TestCase as OrchestraTestCase;
 /**
@@ -171,7 +171,7 @@ class CdnTest extends TestCase
             ->andReturn(__DIR__.'/AwsS3ProviderTest.php');
 
         // partial mock
-        $p_aws_s3_provider = M::mock('\KiranAjudiya\LaravelCDN\Providers\AwsS3Provider[connect]',
+        $p_aws_s3_provider = M::mock('\HemaraoDugana\LaravelCdn\Providers\AwsS3Provider[connect]',
         [
             $m_console,
             $m_validator,
