@@ -37,7 +37,7 @@
     "autoload": {
         "classmap": [
             "tests/TestCase.php",
-            "src/Hemarao/laravelcdn6/Exceptions"
+            "src/Hemarao/laravelcdn2/Exceptions"
         ],        
         "psr-4": {
             "Hemarao\\Laravelcdn2\\": "src/"
@@ -46,10 +46,10 @@
       "extra": {
         "laravel": {
           "providers": [
-            "Hemarao\\laravelcdn6\\CdnServiceProvider"
+            "Hemarao\\laravelcdn2\\CdnServiceProvider"
           ],
           "aliases": {
-            "CDN": "Hemarao\\laravelcdn6\\Facades\\CdnFacadeAccessor"
+            "CDN": "Hemarao\\laravelcdn2\\Facades\\CdnFacadeAccessor"
           }
         }
       },    
