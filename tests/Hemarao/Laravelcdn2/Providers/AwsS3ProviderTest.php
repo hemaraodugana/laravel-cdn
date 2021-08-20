@@ -8,10 +8,10 @@ use Symfony\Component\Console\Output\ConsoleOutput;
 use Aws\S3\S3Client;
 use Aws\Command;
 use Aws\Result;
-use Hemarao\Laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
-use Hemarao\Laravelcdnv2\CdnHelper;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\CdnHelper;
 use Symfony\Component\Finder\SplFileInfo;
-use Hemarao\Laravelcdnv2\Providers\AwsS3Provider;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\Providers\AwsS3Provider;
 
 /**
  * Class AwsS3ProviderTest.

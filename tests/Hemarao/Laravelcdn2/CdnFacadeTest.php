@@ -3,11 +3,11 @@
 namespace Hemarao\Laravelcdnv2\Test;
 
 use Mockery as M;
-use Hemarao\Laravelcdnv2\CdnFacade;
-use Hemarao\Laravelcdnv2\Providers\AwsS3Provider;
-use Hemarao\Laravelcdnv2\Contracts\ProviderFactoryInterface;
-use Hemarao\Laravelcdnv2\Validators\CdnFacadeValidator;
-use Hemarao\Laravelcdnv2\Contracts\CdnHelperInterface;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\CdnFacade;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\Providers\AwsS3Provider;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\Contracts\ProviderFactoryInterface;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\Validators\CdnFacadeValidator;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\Contracts\CdnHelperInterface;
 
 /**
  * Class CdnFacadeTest.

@@ -12,8 +12,8 @@ use Illuminate\Foundation\Mix;
 use Illuminate\Support\Collection;
 use phpDocumentor\Reflection\Types\Array_;
 use PHPUnit\Framework\Constraint\IsInstanceOf;
-use Hemarao\Laravelcdnv2\Contracts\CdnHelperInterface;
-use Hemarao\Laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\Contracts\CdnHelperInterface;
+use Hemarao\Laravelcdnv2\Laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
 use Symfony\Component\Console\Output\ConsoleOutput;
 
 /**
