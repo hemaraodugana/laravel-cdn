@@ -2,7 +2,7 @@
 
 namespace Hemarao\LaravelCdn\Validators;
 
-use KiranAjudiya\laravelCDN\Validators\Contracts\ValidatorInterface;
+use KiranAjudiya\LaravelCDN\Validators\Contracts\ValidatorInterface;
 
 /**
  * Class Validator

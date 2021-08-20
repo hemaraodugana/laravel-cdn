@@ -3,8 +3,8 @@
 namespace Hemarao\LaravelCdn;
 
 use Illuminate\Support\Collection;
-use KiranAjudiya\laravelCDN\Contracts\AssetInterface;
-use KiranAjudiya\laravelCDN\Contracts\FinderInterface;
+use KiranAjudiya\LaravelCDN\Contracts\AssetInterface;
+use KiranAjudiya\LaravelCDN\Contracts\FinderInterface;
 use Symfony\Component\Console\Output\ConsoleOutput;
 use Symfony\Component\Finder\Finder as SymfonyFinder;
 

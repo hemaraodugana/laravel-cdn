@@ -12,8 +12,8 @@ use Illuminate\Foundation\Mix;
 use Illuminate\Support\Collection;
 use phpDocumentor\Reflection\Types\Array_;
 use PHPUnit\Framework\Constraint\IsInstanceOf;
-use KiranAjudiya\laravelCDN\Contracts\CdnHelperInterface;
-use KiranAjudiya\laravelCDN\Validators\Contracts\ProviderValidatorInterface;
+use KiranAjudiya\LaravelCDN\Contracts\CdnHelperInterface;
+use KiranAjudiya\LaravelCDN\Validators\Contracts\ProviderValidatorInterface;
 use Symfony\Component\Console\Output\ConsoleOutput;
 
 /**
@@ -304,7 +304,7 @@ class AwsS3Provider extends Provider
         // state or apply any php function on it." because the returned is
         // a copy of the original variable. this prevent this error:
         // Indirect modification of overloaded property
-        // KiranAjudiya\laravelCDN\Providers\AwsS3Provider::$buckets has no effect
+        // KiranAjudiya\LaravelCDN\Providers\AwsS3Provider::$buckets has no effect
         $bucket = $this->buckets;
 
         return rtrim(key($bucket), '/');

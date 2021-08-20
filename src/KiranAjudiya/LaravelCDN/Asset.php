@@ -3,7 +3,7 @@
 namespace Hemarao\LaravelCdn;
 
 use Illuminate\Support\Collection;
-use KiranAjudiya\laravelCDN\Contracts\AssetInterface;
+use KiranAjudiya\LaravelCDN\Contracts\AssetInterface;
 
 /**
  * Class Asset

@@ -8,10 +8,10 @@ use Symfony\Component\Console\Output\ConsoleOutput;
 use Aws\S3\S3Client;
 use Aws\Command;
 use Aws\Result;
-use KiranAjudiya\laravelCDN\Validators\Contracts\ProviderValidatorInterface;
-use KiranAjudiya\laravelCDN\CdnHelper;
+use KiranAjudiya\LaravelCDN\Validators\Contracts\ProviderValidatorInterface;
+use KiranAjudiya\LaravelCDN\CdnHelper;
 use Symfony\Component\Finder\SplFileInfo;
-use KiranAjudiya\laravelCDN\Providers\AwsS3Provider;
+use KiranAjudiya\LaravelCDN\Providers\AwsS3Provider;
 
 /**
  * Class AwsS3ProviderTest.
@@ -46,7 +46,7 @@ class AwsS3ProviderTest extends TestCase
         $this->m_spl_file->shouldReceive('getPathname')->andReturn('KiranAjudiya/laravelCDN/tests/KiranAjudiya/laravelCDN/AwsS3ProviderTest.php');
         $this->m_spl_file->shouldReceive('getRealPath')->andReturn(__DIR__.'/AwsS3ProviderTest.php');
 
-        $this->p_awsS3Provider = M::mock('\KiranAjudiya\laravelCDN\Providers\AwsS3Provider[connect]', array(
+        $this->p_awsS3Provider = M::mock('\KiranAjudiya\LaravelCDN\Providers\AwsS3Provider[connect]', array(
             $this->m_console,
             $this->m_validator,
             $this->m_helper,

@@ -4,9 +4,9 @@ namespace Hemarao\LaravelCdn\Test;
 
 use Illuminate\Support\Facades\App;
 use Mockery as M;
-use KiranAjudiya\laravelCDN\Exceptions\MissingConfigurationException;
-use KiranAjudiya\laravelCDN\ProviderFactory;
-use KiranAjudiya\laravelCDN\Providers\AwsS3Provider;
+use KiranAjudiya\LaravelCDN\Exceptions\MissingConfigurationException;
+use KiranAjudiya\LaravelCDN\ProviderFactory;
+use KiranAjudiya\LaravelCDN\Providers\AwsS3Provider;
 
 /**
  * Class ProviderFactoryTest.

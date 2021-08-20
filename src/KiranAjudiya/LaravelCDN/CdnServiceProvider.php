@@ -3,21 +3,21 @@
 namespace Hemarao\LaravelCdn;
 
 use Illuminate\Support\ServiceProvider;
-use KiranAjudiya\laravelCDN\Contracts\CdnInterface;
-use KiranAjudiya\laravelCDN\Providers\Contracts\ProviderInterface;
-use KiranAjudiya\laravelCDN\Providers\AwsS3Provider;
-use KiranAjudiya\laravelCDN\Contracts\AssetInterface;
-use KiranAjudiya\laravelCDN\Contracts\FinderInterface;
-use KiranAjudiya\laravelCDN\Contracts\ProviderFactoryInterface;
-use KiranAjudiya\laravelCDN\Contracts\CdnFacadeInterface;
-use KiranAjudiya\laravelCDN\Contracts\CdnHelperInterface;
-use KiranAjudiya\laravelCDN\Validators\Contracts\ProviderValidatorInterface;
-use KiranAjudiya\laravelCDN\Validators\ProviderValidator;
-use KiranAjudiya\laravelCDN\Validators\Contracts\CdnFacadeValidatorInterface;
-use KiranAjudiya\laravelCDN\Validators\CdnFacadeValidator;
-use KiranAjudiya\laravelCDN\Validators\Contracts\ValidatorInterface;
-use KiranAjudiya\laravelCDN\Validators\Validator;
-use KiranAjudiya\laravelCDN\Commands\PushCommand;
+use KiranAjudiya\LaravelCDN\Contracts\CdnInterface;
+use KiranAjudiya\LaravelCDN\Providers\Contracts\ProviderInterface;
+use KiranAjudiya\LaravelCDN\Providers\AwsS3Provider;
+use KiranAjudiya\LaravelCDN\Contracts\AssetInterface;
+use KiranAjudiya\LaravelCDN\Contracts\FinderInterface;
+use KiranAjudiya\LaravelCDN\Contracts\ProviderFactoryInterface;
+use KiranAjudiya\LaravelCDN\Contracts\CdnFacadeInterface;
+use KiranAjudiya\LaravelCDN\Contracts\CdnHelperInterface;
+use KiranAjudiya\LaravelCDN\Validators\Contracts\ProviderValidatorInterface;
+use KiranAjudiya\LaravelCDN\Validators\ProviderValidator;
+use KiranAjudiya\LaravelCDN\Validators\Contracts\CdnFacadeValidatorInterface;
+use KiranAjudiya\LaravelCDN\Validators\CdnFacadeValidator;
+use KiranAjudiya\LaravelCDN\Validators\Contracts\ValidatorInterface;
+use KiranAjudiya\LaravelCDN\Validators\Validator;
+use KiranAjudiya\LaravelCDN\Commands\PushCommand;
 
 /**
  * Class CdnServiceProvider.
