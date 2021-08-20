@@ -1,11 +1,29 @@
 {
-    "name": "hemarao/laravelcdn",
-    "description": "Content Delivery Network (CDN) Package for Laravel for Composer Version 2",
-    "type": "library",
+    "name": "hemarao/laravelcdn2",
+    "description": "Content Delivery Network (CDN) Package for Laravel for composer version 2",
+    "license": "MIT",
+        "keywords": [
+      "laravel",
+      "CDN",
+      "upload",
+      "AWS",
+      "S3",
+      "AWS S3",
+      "amazon",
+      "Assets Upload",
+      "Content Delivery Network",
+      "AWS CloudFront"
+    ],
+    "authors": [
+        {
+            "name": "Hemarao Dugana",
+            "email": "hemsbapu9644@gmail.com"
+        }
+    ],
     "require": {
-        "php": "^7.2.5",
-        "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|6.*|7.*|8.*",
-        "illuminate/config": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|6.*|7.*|8.*",
+        "php": "^7.2",
+        "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|6.*",
+        "illuminate/config": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|6.*",
         "symfony/finder": "2.*|3.*|4.*|5.*",
         "symfony/console": "2.*|3.*|4.*|5.*",
         "aws/aws-sdk-php": "~3.0",
@@ -16,31 +34,25 @@
         "phpunit/phpunit": "^8.5.8|^9.3.3",
         "orchestra/testbench": "~3.8.0|^4.0|^5.0|^6.0"
     },
-    "license": "MIT",
     "autoload": {
         "classmap": [
             "tests/TestCase.php",
-            "src/Hemarao/laravelcdnv2/Exceptions"
+            "src/Hemarao/laravelcdn6/Exceptions"
         ],        
         "psr-4": {
-            "Hemarao\\Laravelcdn\\": "src/"
+            "Hemarao\\Laravelcdn2\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "hemaraodugana",
-            "email": "hemsbapu9644@gmail.com"
-        }
-    ],
-    "extra": {
+      "extra": {
         "laravel": {
           "providers": [
-            "Hemarao\\Laravelcdn\\laravelcdnv2\\CdnServiceProvider"
+            "Hemarao\\laravelcdn6\\CdnServiceProvider"
           ],
           "aliases": {
-            "CDN": "Hemarao\\Laravelcdn\\laravelcdnv2\\Facades\\CdnFacadeAccessor"
+            "CDN": "Hemarao\\laravelcdn6\\Facades\\CdnFacadeAccessor"
           }
         }
       },    
+    "type": "library",
     "minimum-stability": "stable"
 }
