@@ -2,11 +2,11 @@
 
 namespace Hemarao\LaravelCdn;
 
-use HemaraoDugana\LaravelCdn\Contracts\AssetInterface;
-use HemaraoDugana\LaravelCdn\Contracts\CdnHelperInterface;
-use HemaraoDugana\LaravelCdn\Contracts\CdnInterface;
-use HemaraoDugana\LaravelCdn\Contracts\FinderInterface;
-use HemaraoDugana\LaravelCdn\Contracts\ProviderFactoryInterface;
+use Hemarao\LaravelCdn\Contracts\AssetInterface;
+use Hemarao\LaravelCdn\Contracts\CdnHelperInterface;
+use Hemarao\LaravelCdn\Contracts\CdnInterface;
+use Hemarao\LaravelCdn\Contracts\FinderInterface;
+use Hemarao\LaravelCdn\Contracts\ProviderFactoryInterface;
 
 /**
  * Class Cdn
@@ -49,7 +49,7 @@ class Cdn implements CdnInterface
      * @param ProviderFactoryInterface $provider_factory
      * @param CdnHelperInterface       $helper
      *
-     * @internal param \HemaraoDugana\LaravelCdn\Repository $configurations
+     * @internal param \Hemarao\LaravelCdn\Repository $configurations
      */
     public function __construct(
         FinderInterface $finder,
@@ -64,7 +64,7 @@ class Cdn implements CdnInterface
     }
 
     /**
-     * Will be called from the HemaraoDugana\LaravelCdn\PushCommand class on Fire().
+     * Will be called from the Hemarao\LaravelCdn\PushCommand class on Fire().
      */
     public function push()
     {

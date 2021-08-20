@@ -4,12 +4,12 @@ namespace Hemarao\LaravelCdn;
 
 use Illuminate\Support\Facades\Request;
 use InvalidArgumentException;
-use HemaraoDugana\LaravelCdn\Contracts\CdnFacadeInterface;
-use HemaraoDugana\LaravelCdn\Contracts\CdnHelperInterface;
-use HemaraoDugana\LaravelCdn\Contracts\ProviderFactoryInterface;
-use HemaraoDugana\LaravelCdn\Exceptions\EmptyPathException;
-use HemaraoDugana\LaravelCdn\Providers\Contracts\ProviderInterface;
-use HemaraoDugana\LaravelCdn\Validators\CdnFacadeValidator;
+use Hemarao\LaravelCdn\Contracts\CdnFacadeInterface;
+use Hemarao\LaravelCdn\Contracts\CdnHelperInterface;
+use Hemarao\LaravelCdn\Contracts\ProviderFactoryInterface;
+use Hemarao\LaravelCdn\Exceptions\EmptyPathException;
+use Hemarao\LaravelCdn\Providers\Contracts\ProviderInterface;
+use Hemarao\LaravelCdn\Validators\CdnFacadeValidator;
 
 /**
  * Class CdnFacade.

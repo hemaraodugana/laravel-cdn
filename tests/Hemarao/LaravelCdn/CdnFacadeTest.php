@@ -3,11 +3,11 @@
 namespace Hemarao\LaravelCdn\Test;
 
 use Mockery as M;
-use HemaraoDugana\LaravelCdn\CdnFacade;
-use HemaraoDugana\LaravelCdn\Providers\AwsS3Provider;
-use HemaraoDugana\LaravelCdn\Contracts\ProviderFactoryInterface;
-use HemaraoDugana\LaravelCdn\Validators\CdnFacadeValidator;
-use HemaraoDugana\LaravelCdn\Contracts\CdnHelperInterface;
+use Hemarao\LaravelCdn\CdnFacade;
+use Hemarao\LaravelCdn\Providers\AwsS3Provider;
+use Hemarao\LaravelCdn\Contracts\ProviderFactoryInterface;
+use Hemarao\LaravelCdn\Validators\CdnFacadeValidator;
+use Hemarao\LaravelCdn\Contracts\CdnHelperInterface;
 
 /**
  * Class CdnFacadeTest.
@@ -107,7 +107,7 @@ class CdnFacadeTest extends TestCase
     }
 
     /**
-     * @expectedException \HemaraoDugana\LaravelCdn\Exceptions\EmptyPathException
+     * @expectedException \Hemarao\LaravelCdn\Exceptions\EmptyPathException
      */
     public function testUrlGeneratorThrowsException()
     {

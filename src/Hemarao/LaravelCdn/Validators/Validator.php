@@ -2,7 +2,7 @@
 
 namespace Hemarao\LaravelCdn\Validators;
 
-use HemaraoDugana\LaravelCdn\Validators\Contracts\ValidatorInterface;
+use Hemarao\LaravelCdn\Validators\Contracts\ValidatorInterface;
 
 /**
  * Class Validator

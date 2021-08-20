@@ -38,7 +38,7 @@
     "autoload": {
         "classmap": [
             "tests/TestCase.php",
-            "src/HemaraoDugana/LaravelCdn/Exceptions"
+            "src/Hemarao/LaravelCdn/Exceptions"
         ],        
         "psr-4": {
             "Hemarao\\LaravelCdn\\": "src/"
