@@ -3,21 +3,21 @@
 namespace Hemarao\Laravelcdn\Hemarao\laravelcdnv2;
 
 use Illuminate\Support\ServiceProvider;
-use Hemarao\laravelcdnv2\Contracts\CdnInterface;
-use Hemarao\laravelcdnv2\Providers\Contracts\ProviderInterface;
-use Hemarao\laravelcdnv2\Providers\AwsS3Provider;
-use Hemarao\laravelcdnv2\Contracts\AssetInterface;
-use Hemarao\laravelcdnv2\Contracts\FinderInterface;
-use Hemarao\laravelcdnv2\Contracts\ProviderFactoryInterface;
-use Hemarao\laravelcdnv2\Contracts\CdnFacadeInterface;
-use Hemarao\laravelcdnv2\Contracts\CdnHelperInterface;
-use Hemarao\laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
-use Hemarao\laravelcdnv2\Validators\ProviderValidator;
-use Hemarao\laravelcdnv2\Validators\Contracts\CdnFacadeValidatorInterface;
-use Hemarao\laravelcdnv2\Validators\CdnFacadeValidator;
-use Hemarao\laravelcdnv2\Validators\Contracts\ValidatorInterface;
-use Hemarao\laravelcdnv2\Validators\Validator;
-use Hemarao\laravelcdnv2\Commands\PushCommand;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Contracts\CdnInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Providers\Contracts\ProviderInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Providers\AwsS3Provider;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Contracts\AssetInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Contracts\FinderInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Contracts\ProviderFactoryInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Contracts\CdnFacadeInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Contracts\CdnHelperInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Validators\Contracts\ProviderValidatorInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Validators\ProviderValidator;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Validators\Contracts\CdnFacadeValidatorInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Validators\CdnFacadeValidator;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Validators\Contracts\ValidatorInterface;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Validators\Validator;
+use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Commands\PushCommand;
 
 /**
  * Class CdnServiceProvider.
