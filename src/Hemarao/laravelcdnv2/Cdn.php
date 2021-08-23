@@ -49,7 +49,7 @@ class Cdn implements CdnInterface
      * @param ProviderFactoryInterface $provider_factory
      * @param CdnHelperInterface       $helper
      *
-     * @internal param \Hemarao\laravelCDNv2\Repository $configurations
+     * @internal param \Hemarao\laravelcdnv2\Repository $configurations
      */
     public function __construct(
         FinderInterface $finder,
@@ -64,7 +64,7 @@ class Cdn implements CdnInterface
     }
 
     /**
-     * Will be called from the Hemarao\laravelCDNv2\PushCommand class on Fire().
+     * Will be called from the Hemarao\laravelcdnv2\PushCommand class on Fire().
      */
     public function push()
     {

@@ -18,7 +18,7 @@ use Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Exceptions\UnsupportedProviderExcept
  */
 class ProviderFactory implements ProviderFactoryInterface
 {
-    public const DRIVERS_NAMESPACE = 'Hemarao\\laravelCDNv2\\Providers\\';
+    public const DRIVERS_NAMESPACE = 'Hemarao\\laravelcdnv2\\Providers\\';
 
     /**
      * Create and return an instance of the corresponding

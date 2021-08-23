@@ -107,7 +107,7 @@ class CdnFacadeTest extends TestCase
     }
 
     /**
-     * @expectedException \Hemarao\laravelCDNv2\Exceptions\EmptyPathException
+     * @expectedException \Hemarao\laravelcdnv2\Exceptions\EmptyPathException
      */
     public function testUrlGeneratorThrowsException()
     {

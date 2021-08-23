@@ -37,7 +37,7 @@ class AssetTest extends TestCase
             ],
         ]);
 
-        // check the returned object is of type Hemarao\laravelCDNv2\Asset
+        // check the returned object is of type Hemarao\laravelcdnv2\Asset
         assertEquals($result, $this->asset);
     }
 

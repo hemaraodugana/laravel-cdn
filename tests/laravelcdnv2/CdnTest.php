@@ -171,7 +171,7 @@ class CdnTest extends TestCase
             ->andReturn(__DIR__.'/AwsS3ProviderTest.php');
 
         // partial mock
-        $p_aws_s3_provider = M::mock('\Hemarao\laravelCDNv2\Providers\AwsS3Provider[connect]',
+        $p_aws_s3_provider = M::mock('\Hemarao\laravelcdnv2\Providers\AwsS3Provider[connect]',
         [
             $m_console,
             $m_validator,
