@@ -7,7 +7,7 @@ use Aws\S3\Exception\DeleteMultipleObjectsException;
 use Aws\S3\Exception\S3Exception;
 use Aws\S3\RegionalEndpoint\Configuration;
 use Aws\S3\S3Client;
-use Exception;
+use Throwable;
 use Illuminate\Foundation\Mix;
 use Illuminate\Support\Collection;
 use phpDocumentor\Reflection\Types\Array_;
