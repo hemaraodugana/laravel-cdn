@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\Laravelcdn;
+namespace Hemarao\Laravelcdn\Hemarao\laravelcdnv2;
 
 use Hemarao\laravelcdnv2\Contracts\AssetInterface;
 use Hemarao\laravelcdnv2\Contracts\CdnHelperInterface;

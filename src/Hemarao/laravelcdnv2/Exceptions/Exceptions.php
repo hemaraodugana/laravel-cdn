@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\Laravelcdn\Exceptions;
+namespace Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Exceptions;
 
 /**
  * @author Hemarao <hemsbapu9644@gmail.com>

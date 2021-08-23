@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\Laravelcdn\Providers;
+namespace Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Providers;
 
 use Aws\S3\BatchDelete;
 use Aws\S3\Exception\DeleteMultipleObjectsException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\Laravelcdn\Test;
+namespace Hemarao\Laravelcdn\Hemarao\laravelcdnv2\Test;
 
 use Illuminate\Support\Facades\App;
 use Mockery as M;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\Laravelcdn;
+namespace Hemarao\Laravelcdn\Hemarao\laravelcdnv2;
 
 use Illuminate\Support\Facades\Request;
 use InvalidArgumentException;
