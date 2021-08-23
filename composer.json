@@ -1,6 +1,6 @@
 {
-    "name": "hemarao/laravel-cdn",
-    "description": "Content Delivery Network (CDN) Package for Laravel Composer Version 2",
+    "name": "hemarao/laravelcdn",
+    "description": "Content Delivery Network (CDN) Package for Laravel for Composer Version 2",
     "type": "library",
     "require": {
         "php": "^7.2.5",
@@ -19,12 +19,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Hemarao\\LaravelCdn\\": "src/"
+            "Hemarao\\Laravelcdn\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Hemarao Dugana",
+            "name": "hemaraodugana",
             "email": "hemsbapu9644@gmail.com"
         }
     ],
