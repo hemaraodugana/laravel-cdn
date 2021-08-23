@@ -40,7 +40,7 @@ class CdnFacadeTest extends TestCase
                             'use'     => false,
                             'cdn_url' => '',
                         ],
-                        'version'     => '2',
+                        'version'     => '1',
                     ],
                 ],
             ],
