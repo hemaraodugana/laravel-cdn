@@ -32,15 +32,5 @@
             "email": "hemsbapu9644@gmail.com"
         }
     ],
-    "extra": {
-        "laravel": {
-          "providers": [
-            "Hemarao\\Laravelcdn\\Laravelcdn\\CdnServiceProvider"
-          ],
-          "aliases": {
-            "CDN": "Hemarao\\Laravelcdn\\Laravelcdn\\Facades\\CdnFacadeAccessor"
-          }
-        }
-      },        
     "minimum-stability": "stable"
 }
