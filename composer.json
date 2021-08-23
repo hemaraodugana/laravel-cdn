@@ -23,7 +23,7 @@
             "src/Hemarao/laravelcdnv2/Exceptions"
             ],        
         "psr-4": {
-            "Hemarao\\laravelcdnv2\\": "src/"
+            "Hemarao\\Laravelcdn\\": "src/"
         }
     },
     "authors": [
@@ -35,10 +35,10 @@
     "extra": {
         "laravel": {
           "providers": [
-            "Hemarao\\laravelcdnv2\\CdnServiceProvider"
+            "Hemarao\\Hemarao\\laravelcdnv2\\CdnServiceProvider"
           ],
           "aliases": {
-            "CDN": "Hemarao\\laravelcdnv2\\Facades\\CdnFacadeAccessor"
+            "CDN": "Hemarao\\Hemarao\\laravelcdnv2\\Facades\\CdnFacadeAccessor"
           }
         }
       },    
