@@ -12,8 +12,8 @@ Laravel8 CDN Assets Manager
 The package provides the developer the ability to upload their assets (or any public file) to a CDN with a single artisan command.
 And then it allows them to switch between the local and the online version of the files.
 
-###### Fork From [vipertecpro/laravelCDNv26](https://github.com/vipertecpro/laravelCDNv26)
-This project has been forked from https://github.com/vipertecpro/laravelCDNv26. All credit for the original work goes there.
+###### Fork From [vipertecpro/laravelCDNv6](https://github.com/vipertecpro/laravelCDNv6)
+This project has been forked from https://github.com/vipertecpro/laravelCDNv6. All credit for the original work goes there.
 
 #### Laravel 7/8 Support
 - Laravel 7/8 is supported, as is package auto-discovery.
