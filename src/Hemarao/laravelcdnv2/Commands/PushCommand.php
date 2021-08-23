@@ -3,8 +3,8 @@
 namespace Hemarao\Laravelcdn\Commands;
 
 use Illuminate\Console\Command;
-use Hemarao\laravelCDNv2\Cdn;
-use Hemarao\laravelCDNv2\Contracts\CdnInterface;
+use Hemarao\laravelcdnv2\Cdn;
+use Hemarao\laravelcdnv2\Contracts\CdnInterface;
 
 /**
  * Class PushCommand.

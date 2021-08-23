@@ -3,9 +3,9 @@
 namespace Hemarao\Laravelcdn;
 
 use Illuminate\Config\Repository;
-use Hemarao\laravelCDNv2\Contracts\CdnHelperInterface;
-use Hemarao\laravelCDNv2\Exceptions\MissingConfigurationException;
-use Hemarao\laravelCDNv2\Exceptions\MissingConfigurationFileException;
+use Hemarao\laravelcdnv2\Contracts\CdnHelperInterface;
+use Hemarao\laravelcdnv2\Exceptions\MissingConfigurationException;
+use Hemarao\laravelcdnv2\Exceptions\MissingConfigurationFileException;
 
 /**
  * Class CdnHelper

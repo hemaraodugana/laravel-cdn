@@ -2,7 +2,7 @@
 
 namespace Hemarao\Laravelcdn\Providers;
 
-use Hemarao\laravelCDNv2\Providers\Contracts\ProviderInterface;
+use Hemarao\laravelcdnv2\Providers\Contracts\ProviderInterface;
 
 /**
  * Class Provider.
