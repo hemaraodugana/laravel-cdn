@@ -32,7 +32,7 @@ This project has been forked from https://github.com/vipertecpro/laravelcdn6. Al
 Require `Hemarao/laravel-cdn` in your project:
 
 ```bash
-composer require Hemarao/laravel-cdn
+composer require hemarao/laravelcdn
 ```
 
 *If you are using Laravel 5.4 or below, you need to register the service provider:*
@@ -42,7 +42,7 @@ Laravel 5.4 and below: Add the service provider and facade to `config/app.php`:
 ```php
 'providers' => array(
      //...
-     Hemarao\laravelCDNv2\CdnServiceProvider::class,
+     Hemarao\laravelcdnv2\CdnServiceProvider::class,
 ),
 
 ```
@@ -50,7 +50,7 @@ Laravel 5.4 and below: Add the service provider and facade to `config/app.php`:
 ```php
 'aliases' => array(
      //...
-     'CDN' => Hemarao\laravelCDNv2\Facades\CdnFacadeAccessor::class
+     'CDN' => Hemarao\laravelcdnv2\Facades\CdnFacadeAccessor::class
 ),
 ```
 
@@ -59,7 +59,7 @@ Laravel 5.4 and below: Add the service provider and facade to `config/app.php`:
 Publish the package config file:
 
 ```bash
-php artisan vendor:publish --provider 'Hemarao\laravelCDNv2\CdnServiceProvider'
+php artisan vendor:publish --provider 'Hemarao\laravelcdnv2\CdnServiceProvider'
 ```
 
 ## Environment Configuration

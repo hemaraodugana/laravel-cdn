@@ -18,6 +18,10 @@
     },
     "license": "MIT",
     "autoload": {
+        "classmap": [
+            "tests/TestCase.php",
+            "src/Hemarao/laravelcdnv2/Exceptions"
+        ],        
         "psr-4": {
             "Hemarao\\Laravelcdn\\": "src/"
         }
@@ -28,5 +32,15 @@
             "email": "hemsbapu9644@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Hemarao\\laravelcdnv2\\CdnServiceProvider"
+          ],
+          "aliases": {
+            "CDN": "Hemarao\\laravelcdnv2\\Facades\\CdnFacadeAccessor"
+          }
+        }
+      },    
     "minimum-stability": "stable"
 }
