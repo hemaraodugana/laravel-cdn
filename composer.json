@@ -23,7 +23,7 @@
             "src/Hemarao/laravelcdnv2/Exceptions"
             ],        
         "psr-4": {
-            "Hemarao\\Laravelcdn\\": "src/"
+            "Hemarao\\laravelcdnv2\\": "src/"
         }
     },
     "authors": [
