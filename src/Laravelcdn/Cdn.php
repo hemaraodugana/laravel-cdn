@@ -2,11 +2,11 @@
 
 namespace Hemarao\Laravelcdn;
 
-use Hemarao\Laravelcdn\Contracts\AssetInterface;
-use Hemarao\Laravelcdn\Contracts\CdnHelperInterface;
-use Hemarao\Laravelcdn\Contracts\CdnInterface;
-use Hemarao\Laravelcdn\Contracts\FinderInterface;
-use Hemarao\Laravelcdn\Contracts\ProviderFactoryInterface;
+use Laravelcdn\Contracts\AssetInterface;
+use Laravelcdn\Contracts\CdnHelperInterface;
+use Laravelcdn\Contracts\CdnInterface;
+use Laravelcdn\Contracts\FinderInterface;
+use Laravelcdn\Contracts\ProviderFactoryInterface;
 
 /**
  * Class Cdn

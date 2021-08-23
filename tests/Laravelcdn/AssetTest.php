@@ -3,7 +3,7 @@
 namespace Hemarao\Laravelcdn\Test;
 
 use Mockery as M;
-use Hemarao\Laravelcdn\Asset;
+use Laravelcdn\Asset;
 
 /**
  * Class AssetTest.

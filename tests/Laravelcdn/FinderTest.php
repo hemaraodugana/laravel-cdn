@@ -6,8 +6,8 @@ use Illuminate\Support\Collection;
 use Mockery as M;
 use Symfony\Component\Console\Output\ConsoleOutput;
 use Symfony\Component\Finder\SplFileInfo;
-use Hemarao\Laravelcdn\Asset;
-use Hemarao\Laravelcdn\Finder;
+use Laravelcdn\Asset;
+use Laravelcdn\Finder;
 
 /**
  * Class FinderTest.

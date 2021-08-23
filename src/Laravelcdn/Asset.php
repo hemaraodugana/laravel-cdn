@@ -3,7 +3,7 @@
 namespace Hemarao\Laravelcdn;
 
 use Illuminate\Support\Collection;
-use Hemarao\Laravelcdn\Contracts\AssetInterface;
+use Laravelcdn\Contracts\AssetInterface;
 
 /**
  * Class Asset
