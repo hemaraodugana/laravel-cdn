@@ -1,6 +1,7 @@
 {
     "name": "hemarao/laravelcdn",
     "description": "Content Delivery Network (CDN) Package for Laravel for Composer Version 2",
+    "type": "library",
     "require": {
         "php": "^7.2.5",
         "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|6.*|7.*|8.*",
