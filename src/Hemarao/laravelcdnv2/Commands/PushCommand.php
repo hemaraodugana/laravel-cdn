@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Commands;
+namespace Hemarao\Laravelcdn\Commands;
 
 use Illuminate\Console\Command;
 use Hemarao\laravelCDNv2\Cdn;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Test;
+namespace Hemarao\Laravelcdn\Test;
 
 use Illuminate\Support\Collection;
 use Mockery as M;

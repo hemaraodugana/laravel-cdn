@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDNv2;
+namespace Hemarao\Laravelcdn;
 
 use Illuminate\Config\Repository;
 use Hemarao\laravelCDNv2\Contracts\CdnHelperInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Contracts;
+namespace Hemarao\Laravelcdn\Contracts;
 
 /**
  * Interface ProviderFactoryInterface.

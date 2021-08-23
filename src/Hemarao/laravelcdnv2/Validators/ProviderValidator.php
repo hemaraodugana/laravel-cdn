@@ -1,6 +1,6 @@
 <?php
 
-namespace Hemarao\laravelCDNv2\Validators;
+namespace Hemarao\Laravelcdn\Validators;
 
 use Hemarao\laravelCDNv2\Exceptions\MissingConfigurationException;
 use Hemarao\laravelCDNv2\Validators\Contracts\ProviderValidatorInterface;
