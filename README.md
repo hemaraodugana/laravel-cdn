@@ -59,21 +59,13 @@ Laravel 5.4 and below: Add the service provider and facade to `config/app.php`:
 Publish the package config file:
 
 ```bash
-php artisan vendor:publish --provider 'Hemarao\laravelcdnv2\CdnServiceProvider'
+php artisan vendor:publish --provider 'Hemarao\Laravelcdn\Hemarao\laravelcdnv2\CdnServiceProvider'
 ```
 
 ## Environment Configuration
 
 This package can be configured by editing the config/app.php file.  Alternatively, you can set many of these options in as environment variables in your '.env' file.
 
-## Contributing
-
-Please see [CONTRIBUTING](https://github.com/Hemarao/laravel-cdn/blob/master/CONTRIBUTING.md) for details.
-
 ## Security Related Issues
 
 If you discover any security related issues, please email hemsbapu9644@gmail.com instead of using the issue tracker for faster response. You should open an issue at the same time.
-
-## License
-
-The MIT License (MIT). Please see [License File](https://github.com/Hemarao/laravel-cdn/blob/master/LICENSE) for more information.
